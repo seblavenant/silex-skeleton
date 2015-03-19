@@ -1,5 +1,7 @@
  #!/usr/bin/env bash
 
+set -x
+
 apt-get update
 apt-get install -y apache2
 if ! [ -L /var/www ]; then
@@ -7,5 +9,5 @@ if ! [ -L /var/www ]; then
   ln -fs /vagrant /var/www
 fi
 
-cp virtuahost.conf /etc/apache2/site-enabled/
+cp /vagrant/.vagrant/provision/virtualhost.conf /etc/apache2/sites-enabled/
 service apache2 reload
