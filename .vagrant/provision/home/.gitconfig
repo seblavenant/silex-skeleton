@@ -1,0 +1,21 @@
+[user]
+	name = seblavenant
+	email = sebastien@lavenant.me
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	ci = commit
+	st = status
+	co = checkout
+	br = branch
+	amend = commit --amend
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s%Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+	editor = vim
+	fileMode = false
+[push]
+	default = current
+[pull]
+	default = current
