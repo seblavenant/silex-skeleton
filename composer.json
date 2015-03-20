@@ -6,7 +6,7 @@
     "require": {
         "silex/silex": "~1.2",
         "twig/twig": "~1.16",
-        "niktux/karma": "~3.3",
+        "niktux/karma": "~4.0",
         "puzzle/configuration": "~1.4"
     }
 }

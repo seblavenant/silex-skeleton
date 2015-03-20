@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5c80718fd3ba9038c3f84c560a85d6c3",
+    "hash": "40b4cdd69e0f808060ca434cbce3f909",
     "packages": [
         {
             "name": "cpliakas/git-wrapper",
@@ -147,16 +147,16 @@
         },
         {
             "name": "niktux/karma",
-            "version": "3.3.0",
+            "version": "4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Niktux/karma.git",
-                "reference": "2d823c700bad833043d10fa35781a4eac7e2b917"
+                "reference": "841ad0e413e804a8c2a0b8aab8de1b1832ec99cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Niktux/karma/zipball/2d823c700bad833043d10fa35781a4eac7e2b917",
-                "reference": "2d823c700bad833043d10fa35781a4eac7e2b917",
+                "url": "https://api.github.com/repos/Niktux/karma/zipball/841ad0e413e804a8c2a0b8aab8de1b1832ec99cc",
+                "reference": "841ad0e413e804a8c2a0b8aab8de1b1832ec99cc",
                 "shasum": ""
             },
             "require": {
@@ -197,7 +197,7 @@
                 "configuration",
                 "environment"
             ],
-            "time": "2014-08-24 00:57:12"
+            "time": "2014-12-03 22:13:37"
         },
         {
             "name": "pimple/pimple",
