@@ -6,7 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = "hashicorp/precise32"
+  config.vm.box = "chef/debian-7.6"
   config.vm.provision :shell, path: ".vagrant/provision/bootstrap.sh"
   #config.vm.network :forwarded_port, host: 8080, guest: 80
   config.vm.network "private_network", ip: "192.168.50.4"
